@@ -1,0 +1,22 @@
+[
+  {
+    "step": 1,
+    "action": "ocr_extract_pdf",
+    "status": "success"
+  },
+  {
+    "step": 2,
+    "action": "extract_diagnosis",
+    "status": "success"
+  },
+  {
+    "step": 3,
+    "action": "extract_pending_results",
+    "status": "success"
+  },
+  {
+    "step": 4,
+    "action": "generate_discharge_summary",
+    "status": "success"
+  }
+]
