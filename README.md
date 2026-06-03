@@ -1,41 +1,29 @@
-# Discharge Summary Agent
+# Dscribe Discharge Summary Agent
 
-# Discharge Summary Agent
+AI-assisted discharge summary generator for scanned clinical PDFs.
 
-## Overview
+## Features
 
-This project implements an AI-assisted discharge summary generation workflow from clinical source documents.
+* OCR extraction using Tesseract
+* Diagnosis extraction
+* Structured discharge summary generation
+* Trace logging
 
 ## Workflow
 
-1. Read PDF source notes
-2. Extract text using OCR
-3. Identify diagnoses
-4. Detect pending investigations
-5. Generate structured discharge summary
-6. Save reasoning trace
+1. Read PDF
+2. Extract text with OCR
+3. Extract diagnoses
+4. Generate discharge summary
+5. Save trace log
 
-## Technologies
-
-* Python
-* PyMuPDF
-* Tesseract OCR
-* Pytesseract
-
-## Safety Measures
-
-* No hallucinated information
-* Missing information remains blank
-* Pending investigations explicitly flagged
-* Trace logging for transparency
-
-## Output Files
+## Output
 
 * raw_text.txt
 * output_summary.txt
 * trace.json
 
-## Example Diagnosis
+## Example Diagnoses
 
 * Acute Gastroenteritis with Dehydration
 * Urinary Tract Infection
